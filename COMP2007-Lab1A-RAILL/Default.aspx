@@ -49,15 +49,15 @@
                 <form class="form" id="form1" runat="server">
                     <div class="form-group">
                         <asp:Label ID="FirstNameLabel" Text="First Name" runat="server" />
-                        <asp:TextBox ID="FirstNameTextBox" CssClass="form-control" runat="server" />
+                        <asp:TextBox ID="FirstNameTextBox" CssClass="form-control" runat="server" required="true" />
                     </div>
                     <div class="form-group">
                         <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" />
-                        <asp:TextBox ID="LastNameTextBox" CssClass="form-control" runat="server" />
+                        <asp:TextBox ID="LastNameTextBox" CssClass="form-control" runat="server" required="true" />
                     </div>
                     <div class="form-group">
                         <asp:Label ID="AgeLabel" Text="Age" runat="server" />
-                        <asp:TextBox ID="AgeTextBox" CssClass="form-control" runat="server" />
+                        <asp:TextBox ID="AgeTextBox" CssClass="form-control" runat="server" required="true" />
                     </div>
                     <asp:Button CssClass="btn btn-primary" ID="SubmitButton" Text="Submit" runat="server" OnClick="SubmitButton_Click" />
                     <br />
