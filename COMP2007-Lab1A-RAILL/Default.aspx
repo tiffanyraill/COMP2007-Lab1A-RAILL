@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2007_Lab1A_RAILL.Default" %>
 
 <!DOCTYPE html>
-
+<!-- Author Name: Tiffany Raill -->
 <html lang="en">
 <head runat="server">
     <title></title>
